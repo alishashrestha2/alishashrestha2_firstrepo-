@@ -1,4 +1,3 @@
-
 import os
 import datetime
 '''The os module is imported to use the system function'''
@@ -23,7 +22,6 @@ If the operating system is not Windows (i.e., it's Unix-based), the expression e
 5.cls is a command that clears the screen in Windows.
 
 6.clear is a command that clears the screen in Unix-based systems (like Linux and macOS).'''
-
 
 result = 0
 operator = " "
@@ -104,10 +102,6 @@ def option_exit():
         back = input("\t\t\t____________\n\t\t\t|No   |Yes  |\n\t\t\t|_____|_____|    : ")
     os.system('cls' if os.name == 'nt' else 'clear')
     return back
-
-
-
-
 
 while True :
     display_menu()
